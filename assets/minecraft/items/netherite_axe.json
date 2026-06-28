@@ -1,0 +1,40 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/netherite_axe"
+    },
+    "cases": [
+      {
+        "when": "fixinium_axe",
+        "model": {
+          "type": "model",
+          "model": "item/fixinium_axe"
+        }
+      },
+      {
+        "when": "legendary_earth",
+        "model": {
+          "type": "model",
+          "model": "item/legendary_earth"
+        }
+      },
+      {
+        "when": "legendary_nuclear",
+        "model": {
+          "type": "model",
+          "model": "item/legendary_nuclear"
+        }
+      },
+      {
+        "when": "schnewite_axe",
+        "model": {
+          "type": "model",
+          "model": "item/schnewite_axe"
+        }
+      }
+    ]
+  }
+}

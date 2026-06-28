@@ -1,0 +1,73 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/book"
+    },
+    "cases": [
+      {
+        "when": "grimoire",
+        "model": {
+          "type": "model",
+          "model": "item/grimoire"
+        }
+      },
+      {
+        "when": "grimoire_basic",
+        "model": {
+          "type": "model",
+          "model": "item/grimoire_basic"
+        }
+      },
+            {
+        "when": "grimoire_fer",
+        "model": {
+          "type": "model",
+          "model": "item/grimoire_fer"
+        }
+      },
+            {
+        "when": "grimoire_or",
+        "model": {
+          "type": "model",
+          "model": "item/grimoire_or"
+        }
+      },      {
+        "when": "grimoire_diamant",
+        "model": {
+          "type": "model",
+          "model": "item/grimoire_diamant"
+        }
+      },      {
+        "when": "grimoire_netherite",
+        "model": {
+          "type": "model",
+          "model": "item/grimoire_netherite"
+        }
+      },
+            {
+        "when": "grimoire_fixinium",
+        "model": {
+          "type": "model",
+          "model": "item/grimoire_fixinium"
+        }
+      },
+      {
+        "when": "grimoire_violet",
+        "model": {
+          "type": "model",
+          "model": "item/grimoire_violet"
+        }
+      },
+      {
+        "when": "quest_cat_finished",
+        "model": {
+          "type": "model",
+          "model": "item/quest_cat_finished"
+        }
+      }
+    ]
+  }
+}

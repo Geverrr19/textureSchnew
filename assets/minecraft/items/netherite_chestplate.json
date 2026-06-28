@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/netherite_chestplate"
+    },
+    "cases": [
+      {
+        "when": "fixinium_chestplate",
+        "model": {
+          "type": "model",
+          "model": "item/fixinium_chestplate"
+        }
+      },
+            {
+        "when": "schnewite_chestplate",
+        "model": {
+          "type": "model",
+          "model": "item/schnewite_chestplate"
+        }
+      }
+    ]
+  }
+}

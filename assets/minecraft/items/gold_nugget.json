@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/gold_nugget"
+    },
+    "cases": [
+      {
+        "when": "fixicoin",
+        "model": {
+          "type": "model",
+          "model": "item/fixicoin"
+        }
+      }
+    ]
+  }
+}

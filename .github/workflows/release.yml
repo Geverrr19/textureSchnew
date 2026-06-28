@@ -1,0 +1,36 @@
+name: Release Resource Pack
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build resource pack ZIP
+        run: |
+          zip -r schnew-resourcepack.zip . \
+            --exclude ".git/*" \
+            --exclude ".github/*"
+
+      - name: Delete existing latest release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release delete latest --yes 2>/dev/null || true
+          git push origin :refs/tags/latest 2>/dev/null || true
+
+      - name: Create latest release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create latest \
+            --title "Latest Resource Pack" \
+            --notes "Mis à jour automatiquement à chaque push sur main." \
+            schnew-resourcepack.zip

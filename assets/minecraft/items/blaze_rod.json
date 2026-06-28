@@ -1,0 +1,73 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/blaze_rod"
+    },
+    "cases": [
+      {
+        "when": "baton_frieren",
+        "model": {
+          "type": "model",
+          "model": "item/baton_frieren"
+        }
+      },
+      {
+        "when": "baton_gandalf",
+        "model": {
+          "type": "model",
+          "model": "item/baton_gandalf"
+        }
+      },
+            {
+        "when": "baton_fer",
+        "model": {
+          "type": "model",
+          "model": "item/baton_fer"
+        }
+      },
+            {
+        "when": "baton_schnewite",
+        "model": {
+          "type": "model",
+          "model": "item/baton_schnewite"
+        }
+      },
+            {
+        "when": "baton_or",
+        "model": {
+          "type": "model",
+          "model": "item/baton_or"
+        }
+      },      {
+        "when": "baton_diamant",
+        "model": {
+          "type": "model",
+          "model": "item/baton_diamant"
+        }
+      },      {
+        "when": "baton_netherite",
+        "model": {
+          "type": "model",
+          "model": "item/baton_netherite"
+        }
+      },
+            {
+        "when": "baton_fixinium",
+        "model": {
+          "type": "model",
+          "model": "item/baton_fixinium"
+        }
+      },
+      {
+        "when": "baton_fern",
+        "model": {
+          "type": "model",
+          "model": "item/baton_fern"
+        }
+      }
+    ]
+  }
+}

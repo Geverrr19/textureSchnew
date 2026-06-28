@@ -1,0 +1,40 @@
+﻿{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "minecraft:block/enchanting_table"
+    },
+    "cases": [
+      {
+        "when": "board",
+        "model": {
+          "type": "model",
+          "model": "block/board"
+        }
+      },
+      {
+        "when": "altar",
+        "model":  {
+          "type": "model",
+          "model": "block/altar"
+        }
+      },
+            {
+        "when": "portal",
+        "model":  {
+          "type": "model",
+          "model": "block/portal"
+        }
+      },
+      {
+        "when": "runic_table",
+        "model":  {
+          "type": "model",
+          "model": "block/runic_table"
+        }
+      }
+    ]
+  }
+}
