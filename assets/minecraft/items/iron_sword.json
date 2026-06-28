@@ -1,0 +1,62 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/iron_sword"
+    },
+    "cases": [
+      {
+        "when": "faux_fer",
+        "model": {
+          "type": "model",
+          "model": "item/faux_fer"
+        }
+      },
+      {
+        "when": "etherlame_fer",
+        "model": {
+          "type": "model",
+          "model": "item/etherlame_fer"
+        }
+      },
+      {
+        "when": "katana_fer",
+        "model": {
+          "type": "model",
+          "model": "item/katana_fer"
+        }
+      },
+      
+      {
+        "when": "lance_fer",
+        "model": {
+          "type": "model",
+          "model": "item/lance_fer"
+        }
+      },
+      {
+        "when": "dague_fer",
+        "model": {
+          "type": "model",
+          "model": "item/dague_fer"
+        }
+      },
+      {
+        "when": "legendary_weapon",
+        "model": {
+          "type": "model",
+          "model": "item/legendary_weapon"
+        }
+      },
+      {
+        "when": "quest_slayer",
+        "model": {
+          "type": "model",
+          "model": "item/quest_slayer"
+        }
+      }
+    ]
+  }
+}

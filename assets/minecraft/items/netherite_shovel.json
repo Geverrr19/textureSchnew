@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/netherite_shovel"
+    },
+    "cases": [
+      {
+        "when": "fixinium_shovel",
+        "model": {
+          "type": "model",
+          "model": "item/fixinium_shovel"
+        }
+      },
+      {
+        "when": "schnewite_shovel",
+        "model": {
+          "type": "model",
+          "model": "item/schnewite_shovel"
+        }
+      }
+    ]
+  }
+}

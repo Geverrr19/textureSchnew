@@ -1,0 +1,59 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/enchanted_book"
+    },
+    "cases": [
+        {
+        "when": "grimoire_fer",
+        "model": {
+          "type": "model",
+          "model": "item/grimoire_fer"
+        }
+      },
+            {
+        "when": "grimoire_or",
+        "model": {
+          "type": "model",
+          "model": "item/grimoire_or"
+        }
+      },      {
+        "when": "grimoire_diamant",
+        "model": {
+          "type": "model",
+          "model": "item/grimoire_diamant"
+        }
+      },      {
+        "when": "grimoire_netherite",
+        "model": {
+          "type": "model",
+          "model": "item/grimoire_netherite"
+        }
+      },
+            {
+        "when": "grimoire_fixinium",
+        "model": {
+          "type": "model",
+          "model": "item/grimoire_fixinium"
+        }
+      },
+            {
+        "when": "grimoire_schnewite",
+        "model": {
+          "type": "model",
+          "model": "item/grimoire_schnewite"
+        }
+      },  
+      {
+        "when": "quest_casting",
+        "model": {
+          "type": "model",
+          "model": "item/quest_casting"
+        }
+      }
+    ]
+  }
+}

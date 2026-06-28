@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/emerald"
+    },
+    "cases": [
+      {
+        "when": "power_scroll",
+        "model": {
+          "type": "model",
+          "model": "item/scroll_roll"
+        }
+      },
+      {
+        "when": "quest_cat_npc",
+        "model": {
+          "type": "model",
+          "model": "item/quest_cat_npc"
+        }
+      }
+    ]
+  }
+}

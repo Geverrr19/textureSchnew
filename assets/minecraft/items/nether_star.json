@@ -1,0 +1,111 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/nether_star"
+    },
+    "cases": [
+      {
+        "when": "rune_air",
+        "model": {
+          "type": "model",
+          "model": "item/rune_air"
+        }
+      },
+      {
+        "when": "rune_fire",
+        "model": {
+          "type": "model",
+          "model": "item/rune_fire"
+        }
+      },
+      {
+        "when": "rune_water",
+        "model": {
+          "type": "model",
+          "model": "item/rune_water"
+        }
+      },
+      {
+        "when": "rune_earth",
+        "model": {
+          "type": "model",
+          "model": "item/rune_earth"
+        }
+      },
+      {
+        "when": "rune_light",
+        "model": {
+          "type": "model",
+          "model": "item/rune_lumiere"
+        }
+      },
+      {
+        "when": "rune_darkness",
+        "model": {
+          "type": "model",
+          "model": "item/rune_tenebre"
+        }
+      },
+      {
+        "when": "orb_fire",
+        "model": {
+          "type": "model",
+          "model": "item/orb_fire"
+        }
+      },
+      {
+        "when": "orb_water",
+        "model": {
+          "type": "model",
+          "model": "item/orb_water"
+      }
+      },
+      {
+        "when": "orb_earth",
+        "model": {
+          "type": "model",
+          "model": "item/orb_earth"
+        }
+      },
+      {
+        "when": "orb_air",
+        "model": {
+          "type": "model",
+          "model": "item/orb_air"
+        }
+      },
+      {
+        "when": "orb_light",
+        "model": {
+          "type": "model",
+          "model": "item/orb_light"
+        }
+      },
+      {
+        "when": "orb_darkness",
+        "model": {
+          "type": "model",
+          "model": "item/orb_dark"
+        }
+      },
+      {
+        "when": "rune_death",
+        "model": {
+          "type": "model",
+          "model": "item/rune_death"
+        }
+      },
+      {
+        "when": "crane_interdit",
+        "model": {
+          "type": "model",
+          "model": "item/crane_interdit"
+        }
+      }
+
+    ]
+  }
+}
