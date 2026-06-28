@@ -56,6 +56,13 @@
           "model": "item/scroll_roll"
         }
       },
+            {
+        "when": "magic_ring",
+        "model": {
+          "type": "model",
+          "model": "item/magic_ring"
+        }
+      },
       {
         "when": "quest_cat_daily",
         "model": {

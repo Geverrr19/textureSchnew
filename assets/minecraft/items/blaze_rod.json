@@ -21,6 +21,41 @@
           "model": "item/baton_gandalf"
         }
       },
+            
+      {
+        "when": "Rudeus_Staff",
+        "model": {
+          "type": "model",
+          "model": "item/Rudeus_Staff"
+        }
+      },      
+      {
+        "when": "Command_Staff",
+        "model": {
+          "type": "model",
+          "model": "item/Command_Staff"
+        }
+      },   
+      {
+        "when": "Dirt_Staff",
+        "model": {
+          "type": "model",
+          "model": "item/Dirt_Staff"
+        }
+      },     
+      {
+        "when": "Magic_missile",
+        "model": {
+          "type": "model",
+          "model": "item/Magic_missile"
+        }
+      },      {
+        "when": "Spider_Staff",
+        "model": {
+          "type": "model",
+          "model": "item/Spider_Staff"
+        }
+      },
             {
         "when": "baton_fer",
         "model": {

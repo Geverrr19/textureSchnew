@@ -29,6 +29,13 @@
           "model": "item/pinky_gun"
         }
       },
+            {
+        "when": "Baguette",
+        "model": {
+          "type": "model",
+          "model": "item/Baguette"
+        }
+      },
       {
         "when": "baguette_suro",
         "model": {
