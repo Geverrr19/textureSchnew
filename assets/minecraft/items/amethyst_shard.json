@@ -56,11 +56,11 @@
           "model": "item/scroll_roll"
         }
       },
-            {
-        "when": "Magic_Ring",
+      {
+        "when": "magic_ring",
         "model": {
           "type": "model",
-          "model": "item/Magic_Ring"
+          "model": "item/magic_ring"
         }
       },
       {

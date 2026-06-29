@@ -21,75 +21,77 @@
           "model": "item/baton_gandalf"
         }
       },
-            
       {
         "when": "Rudeus_Staff",
         "model": {
           "type": "model",
-          "model": "item/Rudeus_Staff"
+          "model": "item/rudeus_staff"
         }
-      },      
+      },
       {
         "when": "Command_Staff",
         "model": {
           "type": "model",
-          "model": "item/Command_Staff"
+          "model": "item/command_staff"
         }
-      },   
+      },
       {
         "when": "Dirt_Staff",
         "model": {
           "type": "model",
-          "model": "item/Dirt_Staff"
+          "model": "item/dirt_staff"
         }
-      },     
+      },
       {
         "when": "Magic_missile",
         "model": {
           "type": "model",
-          "model": "item/Magic_missile"
+          "model": "item/magic_missile"
         }
-      },      {
+      },
+      {
         "when": "Spider_Staff",
         "model": {
           "type": "model",
-          "model": "item/Spider_Staff"
+          "model": "item/spider_staff"
         }
       },
-            {
+      {
         "when": "baton_fer",
         "model": {
           "type": "model",
           "model": "item/baton_fer"
         }
       },
-            {
+      {
         "when": "baton_schnewite",
         "model": {
           "type": "model",
           "model": "item/baton_schnewite"
         }
       },
-            {
+      {
         "when": "baton_or",
         "model": {
           "type": "model",
           "model": "item/baton_or"
         }
-      },      {
+      },
+      {
         "when": "baton_diamant",
         "model": {
           "type": "model",
           "model": "item/baton_diamant"
         }
-      },      {
+      },
+      {
         "when": "baton_netherite",
         "model": {
           "type": "model",
           "model": "item/baton_netherite"
         }
       },
-            {
+      {
         "when": "baton_fixinium",
         "model": {
           "type": "model",

@@ -29,11 +29,11 @@
           "model": "item/pinky_gun"
         }
       },
-            {
+      {
         "when": "Baguette",
         "model": {
           "type": "model",
-          "model": "item/Baguette"
+          "model": "item/baguette"
         }
       },
       {
