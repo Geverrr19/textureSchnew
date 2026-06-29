@@ -23,34 +23,35 @@
       },
             
       {
-        "when": "Rudeus_Staff",
+        "when": "rudeus_staff",
         "model": {
           "type": "model",
           "model": "item/rudeus_staff"
         }
-      },      
+      },
       {
-        "when": "Command_Staff",
+        "when": "command_staff",
         "model": {
           "type": "model",
           "model": "item/command_staff"
         }
-      },   
+      },
       {
-        "when": "Dirt_Staff",
+        "when": "dirt_staff",
         "model": {
           "type": "model",
           "model": "item/dirt_staff"
         }
-      },     
+      },
       {
-        "when": "Magic_missile",
+        "when": "magic_missile",
         "model": {
           "type": "model",
           "model": "item/magic_missile"
         }
-      },      {
-        "when": "Spider_Staff",
+      },
+      {
+        "when": "spider_staff",
         "model": {
           "type": "model",
           "model": "item/spider_staff"

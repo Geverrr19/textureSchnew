@@ -36,14 +36,14 @@
         }
       },
       {
-        "when": "Blue_Grimoire",
+        "when": "blue_grimoire",
         "model": {
           "type": "model",
           "model": "item/blue_grimoire"
         }
       },
-            {
-        "when": "Time_Grimoire",
+      {
+        "when": "time_grimoire",
         "model": {
           "type": "model",
           "model": "item/time_grimoire"
