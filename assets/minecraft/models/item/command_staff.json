@@ -4,8 +4,8 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"3": "item/texture_cmd",
-		"4": "item/staff-DrawVSMinecraft",
-		"particle": "item/staff-DrawVSMinecraft"
+		"4": "item/staff-drawvsminecraft",
+		"particle": "item/staff-drawvsminecraft"
 	},
 	"elements": [
 		{

@@ -29,7 +29,7 @@
           "model": "item/pinky_gun"
         }
       },
-      {
+            {
         "when": "Baguette",
         "model": {
           "type": "model",

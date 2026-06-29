@@ -42,7 +42,7 @@
           "model": "item/blue_grimoire"
         }
       },
-      {
+            {
         "when": "Time_Grimoire",
         "model": {
           "type": "model",

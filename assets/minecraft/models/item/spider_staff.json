@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "item/Spider-staff",
-		"particle": "item/Spider-staff"
+		"1": "item/spider-staff",
+		"particle": "item/spider-staff"
 	},
 	"elements": [
 		{
