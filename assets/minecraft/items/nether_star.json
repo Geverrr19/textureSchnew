@@ -21,6 +21,14 @@
           "model": "item/rune_fire"
         }
       },
+      
+      {
+        "when": "balance_orb",
+        "model": {
+          "type": "model",
+          "model": "item/balance_orb"
+        }
+      },
       {
         "when": "rune_water",
         "model": {

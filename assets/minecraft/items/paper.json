@@ -13,6 +13,335 @@
           "type": "model",
           "model": "item/scroll_roll"
         }
+      },
+      {
+        "when": "talent_slot_empty",
+        "model": {
+          "type": "model",
+          "model": "item/talent_slot_empty"
+        }
+      },
+      {
+        "when": "talent_slot_edge",
+        "model": {
+          "type": "model",
+          "model": "item/talent_slot_edge"
+        }
+      },
+      {
+        "when": "talent_path_h",
+        "model": {
+          "type": "model",
+          "model": "item/talent_path_h"
+        }
+      },
+      {
+        "when": "talent_path_h_lit",
+        "model": {
+          "type": "model",
+          "model": "item/talent_path_h_lit"
+        }
+      },
+      {
+        "when": "talent_path_v",
+        "model": {
+          "type": "model",
+          "model": "item/talent_path_v"
+        }
+      },
+      {
+        "when": "talent_path_v_lit",
+        "model": {
+          "type": "model",
+          "model": "item/talent_path_v_lit"
+        }
+      },
+      {
+        "when": "talent_path_corner_ne",
+        "model": {
+          "type": "model",
+          "model": "item/talent_path_corner_ne"
+        }
+      },
+      {
+        "when": "talent_path_corner_nw",
+        "model": {
+          "type": "model",
+          "model": "item/talent_path_corner_nw"
+        }
+      },
+      {
+        "when": "talent_path_corner_se",
+        "model": {
+          "type": "model",
+          "model": "item/talent_path_corner_se"
+        }
+      },
+      {
+        "when": "talent_path_corner_sw",
+        "model": {
+          "type": "model",
+          "model": "item/talent_path_corner_sw"
+        }
+      },
+      {
+        "when": "talent_path_corner_ne_lit",
+        "model": {
+          "type": "model",
+          "model": "item/talent_path_corner_ne_lit"
+        }
+      },
+      {
+        "when": "talent_path_corner_nw_lit",
+        "model": {
+          "type": "model",
+          "model": "item/talent_path_corner_nw_lit"
+        }
+      },
+      {
+        "when": "talent_path_corner_se_lit",
+        "model": {
+          "type": "model",
+          "model": "item/talent_path_corner_se_lit"
+        }
+      },
+      {
+        "when": "talent_path_corner_sw_lit",
+        "model": {
+          "type": "model",
+          "model": "item/talent_path_corner_sw_lit"
+        }
+      },
+      {
+        "when": "talent_arrow_up",
+        "model": {
+          "type": "model",
+          "model": "item/talent_arrow_up"
+        }
+      },
+      {
+        "when": "talent_arrow_down",
+        "model": {
+          "type": "model",
+          "model": "item/talent_arrow_down"
+        }
+      },
+      {
+        "when": "talent_arrow_left",
+        "model": {
+          "type": "model",
+          "model": "item/talent_arrow_left"
+        }
+      },
+      {
+        "when": "talent_arrow_right",
+        "model": {
+          "type": "model",
+          "model": "item/talent_arrow_right"
+        }
+      },
+      {
+        "when": "talent_arrow_back",
+        "model": {
+          "type": "model",
+          "model": "item/talent_arrow_back"
+        }
+      },
+      {
+        "when": "talent_arrow_disabled",
+        "model": {
+          "type": "model",
+          "model": "item/talent_arrow_disabled"
+        }
+      },
+      {
+        "when": "talent_info",
+        "model": {
+          "type": "model",
+          "model": "item/talent_info"
+        }
+      },
+      {
+        "when": "talent_node_locked",
+        "model": {
+          "type": "model",
+          "model": "item/talent_node_locked"
+        }
+      },
+      {
+        "when": "talent_node_available",
+        "model": {
+          "type": "model",
+          "model": "item/talent_node_available"
+        }
+      },
+      {
+        "when": "talent_node_unlocked",
+        "model": {
+          "type": "model",
+          "model": "item/talent_node_unlocked"
+        }
+      },
+      {
+        "when": "talent_node_max",
+        "model": {
+          "type": "model",
+          "model": "item/talent_node_max"
+        }
+      },
+      {
+        "when": "talent_node_root",
+        "model": {
+          "type": "model",
+          "model": "item/talent_node_root"
+        }
+      },
+      {
+        "when": "talent_node_vitality",
+        "model": {
+          "type": "model",
+          "model": "item/talent_node_vitality"
+        }
+      },
+      {
+        "when": "talent_node_arcane",
+        "model": {
+          "type": "model",
+          "model": "item/talent_node_arcane"
+        }
+      },
+      {
+        "when": "talent_node_reach",
+        "model": {
+          "type": "model",
+          "model": "item/talent_node_reach"
+        }
+      },
+      {
+        "when": "talent_node_pen",
+        "model": {
+          "type": "model",
+          "model": "item/talent_node_pen"
+        }
+      },
+      {
+        "when": "talent_node_mana",
+        "model": {
+          "type": "model",
+          "model": "item/talent_node_mana"
+        }
+      },
+      {
+        "when": "talent_node_regen",
+        "model": {
+          "type": "model",
+          "model": "item/talent_node_regen"
+        }
+      },
+      {
+        "when": "talent_node_frugal",
+        "model": {
+          "type": "model",
+          "model": "item/talent_node_frugal"
+        }
+      },
+      {
+        "when": "talent_node_haste",
+        "model": {
+          "type": "model",
+          "model": "item/talent_node_haste"
+        }
+      },
+      {
+        "when": "talent_node_ward",
+        "model": {
+          "type": "model",
+          "model": "item/talent_node_ward"
+        }
+      },
+      {
+        "when": "talent_node_cast",
+        "model": {
+          "type": "model",
+          "model": "item/talent_node_cast"
+        }
+      },
+      {
+        "when": "talent_path_t_n",
+        "model": {
+          "type": "model",
+          "model": "item/talent_path_t_n"
+        }
+      },
+      {
+        "when": "talent_path_t_n_lit",
+        "model": {
+          "type": "model",
+          "model": "item/talent_path_t_n_lit"
+        }
+      },
+      {
+        "when": "talent_path_t_e",
+        "model": {
+          "type": "model",
+          "model": "item/talent_path_t_e"
+        }
+      },
+      {
+        "when": "talent_path_t_e_lit",
+        "model": {
+          "type": "model",
+          "model": "item/talent_path_t_e_lit"
+        }
+      },
+      {
+        "when": "talent_path_t_s",
+        "model": {
+          "type": "model",
+          "model": "item/talent_path_t_s"
+        }
+      },
+      {
+        "when": "talent_path_t_s_lit",
+        "model": {
+          "type": "model",
+          "model": "item/talent_path_t_s_lit"
+        }
+      },
+      {
+        "when": "talent_path_t_w",
+        "model": {
+          "type": "model",
+          "model": "item/talent_path_t_w"
+        }
+      },
+      {
+        "when": "talent_path_t_w_lit",
+        "model": {
+          "type": "model",
+          "model": "item/talent_path_t_w_lit"
+        }
+      },
+      {
+        "when": "talent_path_cross",
+        "model": {
+          "type": "model",
+          "model": "item/talent_path_cross"
+        }
+      },
+      {
+        "when": "talent_path_cross_lit",
+        "model": {
+          "type": "model",
+          "model": "item/talent_path_cross_lit"
+        }
+      },
+      {
+        "when": "talent_node_generic",
+        "model": {
+          "type": "model",
+          "model": "item/talent_node_generic"
+        }
       }
     ]
   }
